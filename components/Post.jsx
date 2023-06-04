@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { formatearFecha } from "@/helpers/formatearFecha"
 
-const Post = ( { post, Styles } ) => {
+export const Post = ( { post, Styles } ) => {
 
     const {
         titulo,
@@ -39,5 +39,3 @@ const Post = ( { post, Styles } ) => {
     </div>
   )
 }
-
-export default Post

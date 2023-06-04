@@ -1,6 +1,6 @@
 import { getGuitarras } from "@/data/getGuitarras";
 import { getPosts } from "@/data/getPosts";
-import Post from "@/components/Post";
+import { Post } from "@/components/Post";
 import { Curso } from "@/components/Curso";
 import Guitarra from "@/components/Guitarra";
 
