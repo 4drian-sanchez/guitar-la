@@ -1,4 +1,4 @@
-import Post from "@/components/post"
+import { Post } from "@/components/post"
 import { getPosts } from "@/data/getPosts"
 import Styles from '@/styles/blog.module.css'
 
