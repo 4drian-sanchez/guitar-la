@@ -1,0 +1,38 @@
+.label {
+    display: block;
+    margin-top: 2rem;    
+    font-weight: 700;
+}
+
+.form__select {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: #646161;
+    border-radius: .5rem;
+    border: solid 2px var(--primary);
+}
+
+.form__error {
+    color: rgb(159, 11, 11);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.form__submit {
+    margin: 2rem 0 0;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    background-color: var(--primary);
+    cursor: pointer;
+    transition: 200ms ease background-color;
+}
+
+.form__submit:hover {
+    background-color: var(--black);
+}

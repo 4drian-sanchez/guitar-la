@@ -1,0 +1,29 @@
+.curso {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    margin-top: 8rem;
+}
+
+@media(min-width:768px) {
+
+     .curso__contenido {
+        max-width: 40%;
+        margin-left: auto;
+        margin-right: 5rem;
+     }
+
+}
+
+.curso__heading {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.curso__descripcion {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+}
